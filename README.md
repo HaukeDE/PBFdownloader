@@ -1,5 +1,5 @@
 # PBFdownloader
-A "fair use" friendly vector map download script that creates MBtiles databases
+A "fair use" friendly vector map download script that creates [MBtiles](https://github.com/mapbox/mbtiles-spec) databases
 
 ## Purpose
 
