@@ -11,7 +11,7 @@ Configuration is done with the JSON file `mapconfig.json` in the directory you r
 
 ```
 {
-  FreelyChosenMapName": {
+  "FreelyChosenMapName": {
     "DownloadURL": "https://{server}.mapsource.tld/path/to/pbf/tiles/{z}/{x}/{y}/tile.pbf?any=get&var=needed",
     "ServerParts": ["server1", "server2", ...],
     "BoundingBox": [min_lon, min_lat, max_lon, max_lat],
@@ -21,7 +21,7 @@ Configuration is done with the JSON file `mapconfig.json` in the directory you r
     "max_z": 14,
     "ReadSpacing": 1.5
   },
-  NextMap: {...},
+  "NextMap": {...},
   ...
 }
 ```
