@@ -36,7 +36,7 @@ Aside from some common python libraries, you'll need the [pymbtiles](https://git
 
 If you use this script, I'd kindly ask you to respect and adhere to the usage conditions of the web map service providers. Failing to do so may result in services getting offline, behind authentication or pay walls etc., which would make everyone's life more difficult.
 
-## Running The Script
+## Running the Script
 
 I run it via cron job - my job looks like this:
 
