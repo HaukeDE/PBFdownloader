@@ -14,7 +14,7 @@ Configuration is done with the JSON file `mapconfig.json` in the directory you r
   "FreelyChosenMapName": {
     "DownloadURL": "https://{server}.mapsource.tld/path/to/pbf/tiles/{z}/{x}/{y}/tile.pbf?any=get&var=needed",
     "ServerParts": ["server1", "server2", ...],
-    "BoundingBox": [min_lon, min_lat, max_lon, max_lat],
+    "BoundingBox": [min_lat, min_lon, max_lat, max_lon],
     "MBtilesDB": "/path/to/your/MBtiles-file.mbtiles",
     "Name": "Mapname in the MBtiles DB",
     "min_z": 0,
