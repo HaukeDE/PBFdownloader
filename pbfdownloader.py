@@ -21,7 +21,7 @@
 #		"max_z": 14,
 #		"ReadSpacing": 1.5																							  # wait-time between to requests in seconds
 #	},
-#   NextMap: {...},
+#   "NextMap": {...},
 #   ...
 # }
 #
@@ -315,5 +315,6 @@ while Run:
 			
 Log(LogfileName, "Shutdown received or error occured - graceful exit successfull.")
 Log (LogfileName, "------ Download ended at " + str(datetime.datetime.now()) + " after getting " + str(SessionTileCount) + " tiles. ------")
+
 
 
