@@ -29,7 +29,7 @@
 #
 # License: CC BY-SA 4.0 Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/)
 #
-# For a detailed description and instructions visit: https://projects.webvoss.de
+# For a detailed description and instructions visit: https://projects.webvoss.de/2025/09/27/fair-use-download-of-large-vector-maps/
 #
 
 from pymbtiles import MBtiles, Tile
@@ -315,4 +315,5 @@ while Run:
 			
 Log(LogfileName, "Shutdown received or error occured - graceful exit successfull.")
 Log (LogfileName, "------ Download ended at " + str(datetime.datetime.now()) + " after getting " + str(SessionTileCount) + " tiles. ------")
+
 
